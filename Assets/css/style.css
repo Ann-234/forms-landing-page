@@ -1,0 +1,118 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,900;1,500;1,700&display=swap');
+
+/* general style */
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+/* color */
+:root{
+  --primary-color:#439ee9;
+  --secondary-color:rgb(68, 13, 197);
+  --white:#fff;
+  --black:#000;
+  --light-white:#cdcdcd;
+  --light-black:#2d2b2b;  
+}
+
+/* navbar */
+#navbar{
+  text-align: center;
+  padding-top: 3rem;
+  height: 15vh;
+}
+#navbar .logo{
+  color: var(--secondary-color);
+  font-size: 2rem;
+  font-weight: 700;
+  padding-bottom: 2rem;
+  
+}
+#navbar h1{
+  color: var(--light-black);
+  font-size: 1.2rem;
+}
+#navbar h4{
+  color: var(--light-black);
+  font-weight: 400;
+}
+
+.columns{
+  display: flex;
+  padding-top: 2rem;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;  
+}
+
+.form-input{
+  display: block;
+  justify-content: center;
+  display: flex;
+  position: relative; 
+  margin: 1.9rem;
+
+}
+input{
+  line-height: 40px;
+  padding: 10px 10px 10px 80px;
+  font-size: 18px;
+  display: block;
+  outline: 0;
+  border-radius: .3rem;
+}
+
+
+.icon{
+  position: absolute;
+  left: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 1.2rem;
+  font-size: 1.5rem;
+}
+.button button{
+  background: var(--secondary-color);
+  color: var(--white);
+  position: relative;  
+  left: 12rem;
+  padding: .9rem 2rem;
+  margin-left: 2.6rem;
+  border-radius: 2rem;
+}
+
+/* text */
+section{
+  position: absolute;
+  bottom: 13rem;
+  padding-top: 2rem;
+}
+section h4{
+  text-align: center;
+  padding-top: 3rem;
+  font-weight: 400;
+}
+section .icons{
+  font-size: 2rem;
+  text-align: center;
+}
+section p span{
+ color: var(--secondary-color);
+ font-weight: 800;
+}
+
+
+
+
+
+
