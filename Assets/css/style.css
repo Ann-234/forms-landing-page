@@ -81,13 +81,14 @@ input{
   top: 1.2rem;
   font-size: 1.5rem;
 }
+.button{
+  text-align: center;
+}
 .button button{
   background: var(--secondary-color);
   color: var(--white);
-  position: relative;  
   left: 12rem;
   padding: .9rem 2rem;
-  margin-left: 2.6rem;
   border-radius: 2rem;
 }
 
