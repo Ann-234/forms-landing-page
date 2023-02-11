@@ -98,11 +98,7 @@ section{
   bottom: 13rem;
   padding-top: 2rem;
 }
-section h4{
-  text-align: center;
-  padding-top: 3rem;
-  font-weight: 400;
-}
+
 section .icons{
   font-size: 2rem;
   text-align: center;
@@ -110,6 +106,16 @@ section .icons{
 section p span{
  color: var(--secondary-color);
  font-weight: 800;
+}
+
+
+@media only screen and (max-width:502px){
+  /* section */
+  section{
+    position: absolute;
+    bottom: 12rem;
+    padding-top: 2rem;
+  }
 }
 
 
